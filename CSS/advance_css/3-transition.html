@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transformacje</title>
+</head>
+    <style>
+    div {
+        width: 150px;
+        height: 50px;
+        color: white;
+        background-color: red;
+        transition: transform 2s, width 4s, height 1s;
+        transition-timing-function: ease-in;
+     }
+
+     div:hover {
+        width: 300px;
+        height: 200px;
+        /* scale, scaleX, scaleY, rotate, rotateX, rotateY, translate, translateX, translateY, skew*/
+        transform: translate(50px, 100px);
+        background-color: blue;
+     }
+    </style>
+<body>
+    <div>Najedź na mnie</div>
+</body>
+</html>
