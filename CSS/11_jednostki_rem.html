@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wymiarowanie</title>
+    <style>
+        /*
+        rem - (root em) krotność bazowej czcionki dokumentu (wysokość czcionki
+        elementu korzenia w drzewie dokumentu
+        vw - 1/100 szerokości okna wyświetlania (view width)
+        vh - 1/100 wysokości okna wyświetlania (view height)
+        vmin = min(vw, vh)
+        vmax = max(vw, vh)
+        */
+        body {
+            font-size: 15px;
+        }
+
+        h1 {
+            border: 2px solid blue;
+            font-size: 1.6rem;
+            width: 40rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        ul {
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    Witaj!
+    <div>
+        <h1>Przykładowy element H1</h1>
+        <p>
+            Przykładowy tekst umieszczony w elemencie p
+        </p>
+    </div>
+
+    <ul>
+        <li>Przykładowy element listy</li>
+        <li>Przykładowy element listy</li>
+    </ul>
+
+</body>
+</html>
