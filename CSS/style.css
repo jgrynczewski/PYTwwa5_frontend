@@ -1,0 +1,15 @@
+/* Stylesheet - aruksz stylów */
+header {
+    text-align: center;
+    font-size: large;
+}
+
+main {
+    text-align: center;
+    font-size: medium;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}
