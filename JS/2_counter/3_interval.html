@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter 3</title>
+    <script>
+        let counter = 0;
+
+        function increment() {
+            counter++;
+            document.querySelector('h1').innerHTML = counter;
+        }
+
+        document.addEventListener('DOMContentLoaded', function start() {
+            setInterval(increment, 1000);
+        })
+    </script>
+</head>
+<body>
+    <h1>0</h1>
+    <button>Kliknij</button>
+</body>
+</html>

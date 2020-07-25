@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter 2</title>
+    <script>
+        if (!localStorage.getItem('counter')) {
+            localStorage.setItem('counter', 0);
+        }
+
+        let counter = localStorage.getItem('counter');
+
+        function increment() {
+            counter++;
+            localStorage.setItem('counter', counter);
+            document.querySelector('h1').innerHTML = counter;
+        }
+
+        document.addEventListener('DOMContentLoaded', function start() {
+            document.querySelector('h1').innerHTML = localStorage.getItem('counter');
+            document.querySelector('button').onclick = increment;
+        })
+    </script>
+</head>
+<body>
+    <h1></h1>
+    <button>Kliknij</button>
+</body>
+</html>

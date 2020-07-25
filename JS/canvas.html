@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Płótno</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function start() {
+            let canvas = document.getElementById("my");
+            let ctx = canvas.getContext("2d");
+            ctx.moveTo(0,0);
+            ctx.lineTo(300,150);
+            ctx.stroke();
+        });
+
+    </script>
+</head>
+<body>
+    <canvas id="my" style="border: 1px solid;"></canvas>
+</body>
+</html>

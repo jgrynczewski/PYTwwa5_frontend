@@ -5,3 +5,8 @@
 //});
 //
 
+document.addEventListener('DOMContentLoaded', function start() {
+    document.querySelector("button").addEventListener('click', function hell() {
+        alert('Hello, world!');
+    });
+});
