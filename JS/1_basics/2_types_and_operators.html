@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Typy i operatory</title>
+    <script>
+
+        // Typy
+        console.log(typeof 'asd');
+        console.log(typeof 35.4);
+
+        // Operatory typu numerycznego (Numnber)
+        let price = 12;
+        price = price + 2;
+        price += 2;
+        price += 1;
+        price++; // inkrementacji
+        console.log(price);
+
+        // Dwa operatory inkrementacji
+        console.log(++price); // preinkrementacja
+        console.log(price++); //postinkrementacja
+
+        // Analogicznie dla dekrementacji
+        console.log(--price); // predekrementacja
+
+        // Inkrementacja, dekrementacja odziedziczone po C++
+
+        // Stringi - '' "" ``
+        // Znak uczieczki
+        console.log("\"");
+
+        // Interpolacja stringu/literały szablonowe = f-string w Pythonie
+        let name = "Jan";
+        console.log(`Hello ${name}`);
+
+        // Konkatenacja stringów
+        console.log("abc" + "def");
+
+        // Metody, np. length, toLowerCase()
+
+        // rzutowanie
+         let b=123;
+         console.log(b.toString())
+
+         let c = "123.12";
+         console.log(Number.parseFloat(c));
+         console.log(Number.parseFloat("a5"));
+         console.log(Number.parseFloat("5ad"));
+
+          // niejawne rzutowania
+          let a = "5"
+          console.log(a+2);
+
+            // Boolean
+            let opened = true;
+            opened = false;
+            console.log(!opened);
+
+            // undefined vs null
+            let aa;
+            console.log(aa);
+
+            let bb = null;
+
+            // Obiekty (struktury - struct w c++)
+
+            let person = {
+                firstName = "Jan",
+                lastName = "Kowalski"
+            }
+
+            console.log(person.lastName);)
+    </script>
+</head>
+<body>
+
+</body>
+</html>
